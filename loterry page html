@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://randojs.com/1.0.0.js"></script>
+    <script>
+
+        function showRandomNumbers(){
+            document.getElementById("myNumber").innerHTML = rando(1, 37); 
+            document.getElementById("Number").innerHTML = rando(1, 37);
+            document.getElementById("umber").innerHTML = rando(1, 37);
+            document.getElementById("mNumber").innerHTML = rando(1, 37);
+            document.getElementById("liel").innerHTML = rando(1, 37);
+            document.getElementById("mishel").innerHTML = rando(1, 37);
+            document.getElementById("me").innerHTML = rando(1, 7);
+        }
+    </script>
+    <style>
+        .number {
+            font-size: 30px; 
+            text-align: center;
+            margin: 10px;
+            font-family: Arial, sans-serif;
+            display: inline-block;
+            width: 80px; 
+            height: 80px; 
+            line-height: 80px; 
+            background-color: lightgray; 
+            border-radius: 50%; 
+        }
+    </style>
+
+</head>
+<p>lottey numbers.</p>
+<body style="background-color: powderblue;" onload="showRandomNumbers();">
+    <div class="number" id="myNumber"></div>
+    <div class="number" id="Number"></div>
+    <div class="number" id="umber"></div>
+    <div class="number" id="mNumber"></div>
+    <div class="number" id="liel"></div>
+    <div class="number" id="mishel"></div>
+    <div class="number" id="me"></div>
+</body>
+</html>
